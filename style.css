@@ -1,0 +1,401 @@
+/* Home */
+@font-face {
+    font-family: "JejuHallasan";
+    src: url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.eot");
+    src: url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.svg#JejuHallasan")format("svg");
+}
+
+body{
+    margin: 0;
+}
+
+/* title_web */
+
+.title_web{
+    display: flex;
+}
+
+.title_text_web h3{
+    font-size: 60px;
+    font-family: "JejuHallasan";
+    color: #3D6C6D;
+    text-align: center;
+}
+
+.title_web{
+    padding-top: 20px;
+    background-color: #3FECEC;
+    height: 331px;
+}
+
+.flex-title{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.Andrey_1 img{
+    width: 440px;
+    margin-top: -18px;
+}
+
+/* info_left */
+
+.font{
+    background-color: #D9D9D9;
+    height: 770px;
+    width: 300px;
+}
+
+.link_1{
+    display: flex;
+    align-items: center;
+}
+
+.link_1 a{
+    padding: 0 20px 0;
+    font-size: 24px;
+    font-family: "Joti One";
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+.download{
+    margin-top: -1000px;
+    animation-name: download;
+    animation-duration: 3s;
+}
+
+@keyframes download{
+    0%{
+        margin-top: -1000px;
+    }
+    100%{
+        display: none;
+    }
+}
+
+/* info_right */
+
+/* footer */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.foot{
+    font-size: 29px;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+    font-family: "JejuHallasan";
+    color: blue;
+}
+
+/* Games */
+
+
+
+.Games_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.Games_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.flex_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Games{
+    margin-right: 300px;
+}
+
+.game_1{
+    margin-right: 100px;
+    position: relative;
+}
+
+.game_3{
+    margin-right: 105px;
+    position: relative;
+}
+
+.game_2{
+    position: relative;
+}
+
+.game_4{
+    position: relative;
+}
+
+/* links games */
+
+.link_on_game{
+    position: absolute;
+    bottom: 32px;
+    left: 155px;
+    font-size: 30px;
+    color: #FF0000;
+    font-family: "Jersey 10";
+    text-decoration: none;
+}
+
+.link_on_game1{
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    font-size: 30px;
+    color: #CBBB6B;
+    font-family: "Jersey 10";
+    text-decoration: none;
+}
+
+.link_on_game2{
+    position: absolute;
+    bottom: 40px;
+    left: 130px;
+    font-size: 30px;
+    color: #3B8F3D;
+    font-family: "Jersey 10";
+    text-decoration: none;
+}
+
+.link_on_game3{
+    position: absolute;
+    bottom: 38px;
+    left: 110px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #4A419A;
+    font-family: "Jersey 10";
+}
+
+
+/* Info */
+
+.images_NastyaAnimate img{
+    width: 350px;
+    margin-top: 28px;
+}
+
+.flex-info_about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-info p{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #CBBB6B;
+    animation-name: text_change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 50px;
+}
+
+.text-info a{
+    text-decoration: none;
+    animation-name: text_change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.Tania_BEHINDE{
+    width: 700px;
+}
+
+@keyframes text_change_color{
+    0%{
+        color: #CBBB6B;
+    }
+
+    20%{
+        color: violet;
+    }
+
+    40%{
+        color: #FF0000;
+    }
+
+    60%{
+        color: blue;
+    }
+
+    80%{
+        color: forestgreen;
+    }
+
+    100%{
+        color: darkorange;
+    }
+}
+
+/* Musik */
+
+.Andrey_1_ img{
+    width: 532px;
+    margin-top: -25px;
+}
+
+.notes{
+    font-size: 60px;
+    width: 100px;
+    margin-left: 30px;
+    rotate: -30grad;
+    color: blue;
+    padding-bottom: 50px;
+}
+
+.note1{
+    animation-name: notes_PLAY1;
+    animation-duration: 4.2s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.note12{
+    animation-name: notes_PLAY2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.notes i{
+    animation-name: notes_PLAY0;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes notes_PLAY1{
+    45%{
+        opacity: 1;
+    }
+}
+
+@keyframes notes_PLAY2{
+    55%{
+        opacity: 1;
+    }
+}
+
+@keyframes notes_PLAY0{
+    65%{
+        opacity: 1;
+    }
+}
+
+/* MUSIK */
+
+
+.all_audios audio{
+    width: 400px;
+    height: 100px;
+}
+
+.audio-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.audio-1 p{
+    padding: 0 30px 0;
+    font-size: 26px;
+    font-family: "JejuHallasan";
+    margin-top: 60px;
+}
+
+.Download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    padding: 0 40px 0;
+    color: black;
+    font-family: "JejuHallasan";
+    font-size: 21px;
+}
+
+.Home_Link a{
+    text-decoration: none;
+    font-size: 27px;
+    transition: 0.5s;
+}
+
+.Home_Link a:hover{
+    color: #3B8F3D;
+}
+
+.audio_download{
+    transition: 2s;
+    background-color: #4A419A;
+    border-radius: 500px;
+  
+}
+
+.link_audioplayer i{
+    transition: 1s;
+   color: blue;
+   font-size: 500px;
+}
+
+.footers{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -50px;
+}
+
+.foots_1{
+    font-size: 25px;
+    position: absolute;
+    bottom: 30px;
+    left: 800px;
+    font-family: "JejuHallasan";
+    color: blue;
+}
+
+.audio_download:hover{
+    background-color: blueviolet;
+}
+
+.audio_download:hover i{
+    color: purple;
+    text-align: right;
+}
+
+.audio_download:active{
+    transform: scale(-3.1);
+} 
+
+/* hover links */
+
+.link_1 a:hover{
+    color: yellowgreen;
+}
